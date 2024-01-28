@@ -1,0 +1,130 @@
+
+
+/* sidebar product body  */
+::-webkit-scrollbar{
+    width: 5px;
+}
+.sidebar{
+    position: sticky;
+    padding-right: 40px;
+    border-right: 1px solid rgb(212, 211, 211);
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 180px;
+    /* height: 2250px ; */
+    overflow-y: scroll;
+}
+.sidebaritem{
+  
+
+
+
+}
+.sidebaritem li{
+    list-style: none;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.sidebaritem li input{
+    margin: 3px;
+}
+.sidebaritem .caps{
+    font-size: 14px;
+}
+.stars .css-i4bv87-MuiSvgIcon-root{
+    color: #FFA726 ;
+}
+.stars li:hover{
+    cursor: pointer;
+}
+.sidebaritem .sidebarbold{
+    font-weight: bolder;
+    margin: 20px 0 10px 0;
+}
+ .sidebaritem .blueprime{
+    color: rgb(102, 195, 253);
+    font-weight: bold;
+}
+.blueprime .css-i4bv87-MuiSvgIcon-root{
+    color: #FFA726 ;
+}
+.productbody{
+    display: flex ;
+    height: 2250px ;
+    padding-bottom: 50px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 20px;
+    width: 1200px ;
+    margin-left: 20px;
+    margin-top: 50px;
+    height: fit-content;
+}
+.productitem{
+    height: 424px;
+}
+.prdtimg{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 1px 1px 2px 3px rgb(249, 248, 248);
+}
+.prdtprice{
+    font-size: 18px;
+    font-weight: bold;
+}
+.products div img{
+    width: 230px;
+    height: 250px;
+}
+.productitem p , span {
+    margin-top: 5px;
+}
+.prdttitle{
+    height: 40px;
+    overflow: hidden;
+}
+.productitem .css-i4bv87-MuiSvgIcon-root{
+    color: #FFA726 ;
+    width: 15px ;
+}
+.prdtrating{
+    display: flex;
+    align-items: center;
+}
+.productitem:hover{
+    box-shadow: 2px 2px 5px 3px rgb(205, 202, 202);
+    cursor: pointer;   
+}
+.productitem:hover .prdtimg {
+    box-shadow: none;
+}
+.loading{
+    text-align: center;
+}
+.load img{
+    width: 50px;
+    margin-left: 720px ;
+}
+.pricefilter li:hover{
+    cursor: pointer;
+}
+.sorrynoprdt{
+    width: 500px;
+}
+.prdtimg .css-1w1rijm-MuiButtonBase-root-MuiButton-root {
+    position: absolute;
+    z-index: 20;
+    top: 251px;
+    padding: 2px;
+    left: 185px;
+    font-size: 10px;
+    background-color: white;
+}
+
+

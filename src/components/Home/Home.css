@@ -1,0 +1,221 @@
+*{
+    /* background-color: #E3E6E6; */
+
+}
+.home{
+    height:  516vh;
+    font-size: 50px;
+    background-color: #E3E6E6;
+}
+ .homecontainer{
+    position: relative;
+ }
+.home_carousel_img{
+    width: 100%;
+    height: 610px;
+    /* filter: blur(1px); */
+    
+}
+.css-1m9128y {
+    display: none;
+}
+.margin{
+    margin: 25px;
+}
+
+.home_mega_container{
+    position: absolute;
+    top: 310px;
+    z-index: 1;
+    margin: 25px;
+    display: grid ;
+    grid-template-columns: repeat(4 , 1fr );
+    gap: 20px;
+}
+
+.home_mega_container_divbox{
+    background-color: white;
+    padding: 15px;
+}
+
+.home_mega_container_divbox_inflex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.home_mega_container_divbox h6{
+  font-size: 20px;
+  
+}
+
+.inflex_item{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 152px;
+}
+.inflex_item img{
+    width: 140px;
+}
+.different img{
+    width: 324px;
+    margin-top: 10px;
+}
+
+.caroselfirstcontainer{
+    margin-top: 380px;
+    background-color: white;
+    padding-bottom: 15px ;
+
+
+}
+.caroselfirstcontainer h6{
+    padding-top: 20px;
+    margin: 20px;
+    font-size: 25px;
+}
+.caroselfirstcontainer h6 span{
+    font-size: 13px;
+    color: #007185;
+}
+.firstCarosel{
+    width: 130px;
+    height: 160px;
+}
+.caroselimg{
+    background-color: white ;
+    display: flex ;
+    justify-content: center;
+}
+.discount p{
+    display: inline-block;
+    font-size: 15px;
+    background-color: #CC0C39;
+    color: white;
+    text-align: start;
+    font-weight: bolder;
+    /* width: 100px; */
+    padding: 5px;
+}
+.descpara p {
+    font-size: 15px ;
+    text-align: start;
+}
+.jjfwLM{
+    box-shadow: 1px 1px 2px grey;
+    padding: 5px;
+}
+.caroselsecondcontainer{
+    background-color: white;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+.caroselsecondcontainer h6{
+    padding-top: 20px;
+    margin: 20px;
+    font-size: 25px;
+}
+.caroselsecondcontainer h6 span{
+    font-size: 13px;
+    color: #007185;
+}
+.caroselsecondcontainer .firstCarosel{
+    width: 190px;
+    height: 183px;
+}
+
+.closecaroselcontainer{
+    background-color: white;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+.closecaroselcontainer h6{
+    padding-top: 20px;
+    margin: 20px;
+    font-size: 25px;
+}
+.closecaroselcontainer h6 span{
+    font-size: 13px;
+    color: #007185;
+}
+
+.closecaroselcontainer .jjfwLM{
+    box-shadow: none;
+
+}
+.closecaroselimg img{
+    height: 180px;
+    font-size: 20px;
+
+}
+.staticcontainerfourth{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 20px;
+    margin-top: 20px ;
+}
+
+.cardsixth {
+    padding: 20px 20px 10px 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.cardsixth img{
+    width: 100%;
+}
+
+.staticcontainerseventh{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 20px;
+    margin-top: 20px ;
+}
+
+.signfooter{
+    margin-top: 20px;
+    padding: 40px 0;
+}
+
+.signinfooterdiv{
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.signinfooterdiv div{
+    font-size: 20px;
+}
+.signinfooterdiv p{
+    font-size: 15px;
+}
+.signinfooterdiv p span{
+    color: #007185;
+}
+.signinfooterdiv button{
+    background-color:#cd9042 ;
+    width: 200px;
+    padding: 4px;
+    border: none;
+    margin: 7px;
+
+}
+.signinfooterdiv button:hover{
+    background-color: #d88b26;
+    cursor: pointer;
+}
+ .css-ktslay-MuiButtonBase-root-MuiIconButton-root:hover {
+    z-index: 200;
+ }
+
+
+/* .css-ktslay-MuiButtonBase-root-MuiIconButton-root {
+    position: absolute;
+    z-index: 101;
+    width: 26px;
+    height: 26px;
+    top: 22px;
+} */

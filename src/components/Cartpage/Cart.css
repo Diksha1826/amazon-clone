@@ -1,0 +1,126 @@
+.cartbody{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EAEDED;
+    padding: 30px;
+}
+.cartdesc{
+    width: 700px;
+}
+.carttotaldiv{
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    height: 280px ;
+}
+.cartitemsdiv{
+    background-color: white;
+    padding: 20px;
+    width: 1130px;
+}
+.shopping{
+    font-size: 30px;
+}
+.pricepara{
+    text-align: end;
+}
+hr{
+    margin-bottom: 30px;
+}
+.cartitemdetail{
+    display: flex;
+    justify-content: space-evenly;
+    width: 970px;
+
+}
+.cartitemimg img{
+    width: 200px;
+    height: 200px;
+}
+.qtyndmore{
+    display: flex;
+    align-items: center;
+
+}
+.qtyndmore span{
+    margin: 0 10px;
+}
+.cartitem{
+    display: flex;
+    justify-content: space-between;
+}
+.cartpricedetail{
+    width: 50px;
+}
+.cartitemmain hr{
+    margin-top: 15px;
+}
+.cartdescpara{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.cartdescinstock {
+    color: #007600;
+    margin-bottom: 5px;
+}
+.eligible , .fullfill{
+    margin-bottom: 2px;
+}
+.cartdesccheckbox{
+    margin-bottom: 8px;
+}
+.qtyndmore select{
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(231, 232, 233);
+    box-shadow: 3px 3px 5px -3px grey;
+}
+.cartpricedetail p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.greenpara{
+    color: #008500;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.subtotal{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.subtotalspan{
+    font-weight: bolder;
+}
+.buyfromcart{
+    background-color: #FFD814 ;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: none;
+}
+.buyfromcart:hover{
+    background-color: #e8c30e;
+    cursor: pointer;
+
+}
+.emiavail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    padding: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 1px;
+}
+.lastsubttl{
+    text-align: end;
+
+}
+.qtyndmore p:hover{
+    cursor: pointer;
+}
+#selectqty:hover{
+    cursor: pointer;
+}

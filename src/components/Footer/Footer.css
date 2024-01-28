@@ -1,0 +1,115 @@
+.footer{
+    font-size: 20px;
+}
+.footer hr{
+    margin: 0;
+}
+.backtotop{
+    background-color: #37475A ;
+    color:  white ;
+    height: 50px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 200px;
+}
+hr{
+    margin: 0;
+}
+.backtotop:hover{
+    background-color: #445972 ;
+    cursor: pointer;
+
+}
+.firstsubfooter{
+    padding: 50px 270px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.firstsubfooter ul .bold{
+    font-weight: bold;
+}
+.firstsubfooter ul .bold:hover{
+    color:white ;
+    cursor: pointer;
+
+}
+.firstsubfooter ul li{
+    list-style: none;
+    margin-bottom: 7px;
+    
+
+}
+.firstsubfooter ul li:hover{
+    color:rgb(154, 152, 152) ;
+    cursor: pointer;
+}
+
+.secondsubfooter{
+    padding: 30px 280px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.countryname{
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.countryname span{ 
+    margin-left: 9px;
+}
+.countryname span:hover{
+    color:rgb(154, 152, 152) ;
+    cursor: pointer;
+} 
+
+
+.logo img{
+    width: 70px;
+}
+
+.thirdsubfooter{
+    background-color: #131A22;
+    color: white;
+}
+.thirdfooter{
+    padding: 30px 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.thirdfooter ul li{
+    list-style: none;
+    color: rgb(154, 152, 152);
+}
+.thirdfooter ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+.thirdfooter ul .thirdfbold{
+    font-weight: bolder;
+    color: white;
+}
+.thirdsub{
+    margin-bottom: 20px;
+}
+.lastfoot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding-bottom: 20px;
+}

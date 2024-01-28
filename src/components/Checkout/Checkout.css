@@ -1,0 +1,210 @@
+.checkoutnav{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/31/common/sprites/tspc-header-bkg.png');
+}
+.checkoutnav img{
+    width: 200px;
+    height: 154px;
+}
+.checkoutbody{
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordian{
+    width: 1050px;
+}
+.accoridianitem1{
+    box-shadow: none;
+}
+.accordian .css-1c35hjw-MuiPaper-root-MuiAccordion-root{
+    box-shadow: none;
+    border-bottom: 1px solid rgb(232, 230, 230) ;
+}
+.addnewaddress{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+form{
+    width: 600px;
+}
+.addressform input,#countryselecter,#state{
+    width: 100% ;
+    padding: 3px;
+}
+form label{
+    display: block;
+    font-weight: bold;
+}
+form .flexcity{
+    display: flex;
+    justify-content: space-between;
+}
+form  div{
+    margin-bottom: 15px;
+}
+.addressinput{
+    margin-bottom: 7px;
+}
+form .submit{
+    width: 25% ;
+    padding: 6px;
+    font-weight: bold;
+    border: 1px solid rgb(91, 65, 65);
+    /* background-image: linear-gradient(red, yellow); */
+    background-image: linear-gradient( rgb(247, 233, 151) , rgb(244, 208, 7)) ;
+    border-radius: 4px;
+}
+form .checkboxaddress{
+    display: flex;
+    font-weight: bold;
+}
+form .checkboxaddress input{
+    width: 15px;
+    margin-right: 6px;
+}
+.addressform select{
+    background-image: linear-gradient(white , rgba(223, 220, 220, 0.884)) ;
+}
+
+.creditcard{
+    display: flex;
+    margin-bottom: 30px;
+}
+.cards{
+    margin-bottom: 10px;
+}
+.creditcard p{
+    font-weight: bold;
+}
+h4{
+    font-size: 20px;
+}
+hr{
+    margin: 7px 0 ;
+}
+.avaibalance input{
+    width: 200px;
+    margin: 0 10px 20px 15px;
+    padding: 5px;
+}
+.avaibalance button{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px 2px #e3e7e5 ;
+
+}
+.cardsimg{
+    margin-bottom: 50px;
+    margin-left: 20px;
+
+}
+#credit{
+    margin-right: 10px;
+
+}
+#bankselect{
+    width: 150px;
+    margin: 0 0 15px 20px;
+    background-color: #e3e7e5;
+    border-radius: 5px;
+}
+.paymentbtn{
+    background-image: linear-gradient( rgb(247, 233, 151) , rgb(244, 208, 7)) ;
+    padding: 5px;
+    border: 1px solid rgb(102, 70, 70);
+    border-radius: 5px;
+}
+.placeorder{
+    background-image: linear-gradient( rgb(247, 233, 151) , rgb(244, 208, 7)) ;
+    padding: 5px;
+    border: 1px solid rgb(102, 70, 70);
+    border-radius: 5px; 
+    margin: 30px 0;
+}
+.shippingradioone{
+    display: flex;
+    width: 300px;
+    border: 1px solid grey;
+    padding: 8px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.li{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 325px;
+}
+.shippingradio{
+    margin-right: 10px;
+}
+.option{
+    margin-bottom: 10px;
+}
+.tohome{
+    color: skyblue;
+}
+.tohome:hover{
+    cursor: pointer;
+}
+.accordian{
+    margin-bottom: 30px;
+}
+.onecheckoutpara{
+    margin-top: 30px;
+}
+.bottonpara{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+.ordersummary{
+    width: 270px;
+    border: 1px solid rgb(232, 230, 230);
+    border-radius: 15px;
+    height: fit-content;
+    position: fixed;
+    left: 1200px;
+}
+.ordersummarycontainer{
+    padding: 20px;
+
+}
+
+.ordersummarycontainer div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.shorthr{
+    width: 88%;
+    margin: auto;
+}
+.ordersummaryheading{
+    margin: 0 0 20px 0;
+}
+.pricetotalred{
+    color: rgb(146, 36, 36);
+    font-size: 15px;
+}
+
+.howcostcal{
+    color: skyblue;
+    padding: 20px;
+    border-top: 1px solid rgb(193, 189, 189);
+    background-color: #fcfefe;
+    font-size: 13px;
+    border-end-end-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+.howcostcal:hover{
+    cursor: pointer;
+}

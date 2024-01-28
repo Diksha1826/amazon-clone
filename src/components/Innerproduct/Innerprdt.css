@@ -1,0 +1,273 @@
+.mainbody{
+    display: flex ;
+    justify-content: space-evenly;
+    height: 590px;
+}
+.detailscontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.imagecontainer img{
+    width: 510px ;
+    height: 510px;
+    position: relative;
+}
+.detailscontainer{
+    width: 919px
+}
+::-webkit-scrollbar{
+    width: 2px;
+}
+.maindetails{
+    width: 69%;
+    position: sticky;
+    overflow-y: scroll;
+}
+.cartdetails{
+    width: 25%;
+    border: 1px solid rgb(214, 211, 211) ;
+    padding: 15px;
+    border-radius: 10px;
+}
+.title{
+    font-size: 22px ;
+}
+.visitstore{
+     color: #007185 ;
+     margin: 5px 0 0 0;
+     font-size: 15px;
+}
+.elemrating{
+    display: flex;
+    align-items: center;
+}
+.elemrating span .css-i4bv87-MuiSvgIcon-root{
+    color: #FFA726 ;
+    width: 17px;
+    height: 15px;
+}
+.elemrating .css-i4bv87-MuiSvgIcon-root{
+    width: 19px;
+}
+hr{
+    margin-bottom: 15px ;
+}
+.detailprice{
+    font-size: 16px;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+}
+.detailprice span{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+.emi{
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+}
+.emi .css-i4bv87-MuiSvgIcon-root{
+    width: 19px;
+}
+.offer{
+    margin-bottom: 10px;
+}
+.offers{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.offers div{
+    width: 140px;
+    box-shadow: 1px 1px 2px 2px rgb(225, 221, 221);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.offers .css-i4bv87-MuiSvgIcon-root{
+    width: 15px;
+}
+.offerno{
+    display: flex;
+    align-items: center;
+    color: #007185 ;
+    margin-top: 15px ;
+    font-size: 15px;
+    
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:60% ;
+    text-align: center;
+    color: #007185 ;   
+    margin-bottom: 15px ;
+}
+.features img{
+    width: 50px;
+}
+.purchase{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.accessori{
+    margin-bottom: 15px;
+}
+.aboutprdt{
+    display: flex ;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.aboutprdt p{
+    margin: 5px 0 ;
+}
+.aboutpbold{
+    margin-bottom: 10px;
+}
+
+.cartdetails{
+    height: 558px ;
+}
+
+.Cartdetailprdtprice{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    /* justify-content: flex-start; */
+}
+.Cartdetailprdtprice span{
+    font-size: 29px;
+    font-weight: bolder;
+}
+.freedeliv{
+    color: #007185;
+    margin-bottom: 15px;
+}
+.freedeliv span{
+    color: black;
+}
+.location{
+    margin-bottom: 19px;
+    display: flex;
+    align-items: flex-start;
+}
+.location .css-i4bv87-MuiSvgIcon-root{
+    height: 20px;
+}
+.instock{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sold{
+    margin-bottom: 10px;
+}
+.soldby{
+    color: #007185;
+}
+.red{
+    color: rgb(143, 3, 3);
+}
+.protection{
+    margin-bottom: 10px;
+}
+.warrentycheckbox{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px ;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.quantity:hover{
+    cursor: pointer;
+}
+#qty:hover{
+    cursor: pointer;
+}
+.quantity p{
+    margin-right: 5px;
+}
+.quantity select{
+   border-radius: 5px;
+   border: 1px solid rgb(182, 181, 181);
+   padding: 5px;
+}
+.addtocart{
+    display: block;
+    width: 100%;
+    background-color: #FFA726;
+    border: none;
+    padding: 6px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+
+}
+.addtocart:hover{
+    background-color: #e79923;
+    cursor: pointer;
+
+}
+.buynow{
+    width: 100%;
+    background-color: #FFA726;
+    border: none;
+    padding: 6px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+
+}
+.buynow:hover{
+    background-color: #e79923;
+    cursor: pointer;
+
+}
+.giftopt{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.wishlist{
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(182, 181, 181);
+    padding: 6px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+
+}
+.wishlist:hover{
+    background-color:rgb(238, 230, 230) ;
+    cursor: pointer;
+}
+.secure .css-i4bv87-MuiSvgIcon-root{
+    color: grey;
+    height: 15px ;
+    width: 15px ;
+}
+.secure{
+    display: flex ;
+    align-items: center;
+}
+.loading{
+    text-align: center;
+}
+.loadingimg{
+    width: 50px;
+    margin-left: 720px;
+}
+
+.imagecontainer .css-1w1rijm-MuiButtonBase-root-MuiButton-root {
+    position: absolute;
+    top: 660px;
+    left: 445px;
+    background-color: white;
+    font-size: 10px;
+}

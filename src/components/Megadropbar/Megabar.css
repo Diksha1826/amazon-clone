@@ -1,0 +1,152 @@
+.megadropdown {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 15px 0px;
+    border-bottom: 1px solid rgb(212, 211, 211);
+    padding-bottom: 15px;
+  }
+  .staticmega {
+    font-weight: bolder;
+  }
+  .uppermegadivone:hover {
+    border-bottom: 2px solid rgb(232, 135, 24);
+    cursor: pointer;
+  }
+  .uppermegadivone {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .lowermegadivone {
+    display: none;
+    justify-content: space-between;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    /* margin-top: 10px; */
+    padding: 35px 150px 20px 150px;
+    position: absolute;
+    background-color: white;
+    z-index: 2 ;
+    border-top: 1px solid rgb(212, 211, 211);
+    border-bottom: 1px solid rgb(212, 211, 211);
+  }
+  
+  .megaone:hover .megadrop1 {
+    display: flex;
+  }
+  .megaone:hover .one {
+    border-bottom: 2px solid rgb(232, 135, 24);
+  }
+  
+  .megatwo:hover .twomega {
+    display: flex;
+  }
+  .megatwo:hover .two {
+    border-bottom: 2px solid rgb(232, 135, 24);
+  }
+  .megathree:hover .threemega {
+    display: flex;
+  }
+  .megathree:hover .three {
+    border-bottom: 2px solid rgb(232, 135, 24);
+  }
+  .megafour:hover .fourmega {
+    display: flex;
+  }
+  .megafour:hover .four {
+    border-bottom: 2px solid rgb(232, 135, 24);
+  }
+  .megafive:hover .fivemega {
+    display: flex;
+  }
+  .megafive:hover .five {
+    border-bottom: 2px solid rgb(232, 135, 24);
+  }
+  .megasix:hover .sixmega {
+    display: flex;
+  }
+  .megasix:hover .six {
+    border-bottom: 2px solid rgb(232, 135, 24);
+  }
+  .megaseven:hover .sevenmega {
+    display: flex;
+  }
+  .megaseven:hover .seven {
+    border-bottom: 2px solid rgb(232, 135, 24);
+  }
+  .megaeight:hover .eightmega {
+    display: flex;
+  }
+  
+  .megaeight:hover .eight {
+    border-bottom: 2px solid rgb(232, 135, 24);
+  }
+  
+  .meganine:hover .ninemega {
+    display: flex;
+  }
+  .meganine:hover .nine {
+    border-bottom: 2px solid rgb(232, 135, 24);
+  }
+  
+  .megaten:hover .tenmega {
+    display: flex;
+  }
+  
+  .megaten:hover .ten {
+    border-bottom: 2px solid rgb(232, 135, 24) #FFA726;
+  }
+  
+  .writtenpart {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+  }
+  .writtenpart li {
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .writtenpart .writtenbold {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .writtenpart .writtenbold:hover {
+    text-decoration: none;
+  }
+  
+  .writtenpart li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .imagepart {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .imagepart img {
+    width: 170px;
+    margin-right: 10px;
+  }
+  .imagepart p {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .boldimgdesc {
+    font-weight: bolder;
+  }
+  .image1:hover p {
+    text-decoration: underline;
+  }
+  
+  .image2:hover p {
+    text-decoration: underline;
+  }
+  
+  .image3:hover p {
+    text-decoration: underline;
+  }
