@@ -1,4 +1,18 @@
 .orderplaced h1{
     width: 500px;
     margin: auto ;
+    margin-top: 20px;
 }
+.orderplaced{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orderplaced p{
+    color: skyblue;
+    text-decoration: underline;
+}
+.orderplaced p:hover{
+    cursor: pointer;
+}
+

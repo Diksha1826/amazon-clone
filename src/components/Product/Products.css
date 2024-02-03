@@ -14,13 +14,9 @@
     /* height: 2250px ; */
     overflow-y: scroll;
 }
-.sidebaritem{
-  
 
-
-
-}
 .sidebaritem li{
+    font-size: 14px;
     list-style: none;
     margin-bottom: 5px;
     display: flex;

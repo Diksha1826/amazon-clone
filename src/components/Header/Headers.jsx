@@ -5,7 +5,8 @@ import  './Header.css'
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import { useNavigate } from 'react-router-dom';
 
-const Headers = () => {
+const Headers = (props) => {
+  // const [totalItems , setTotalItems] = useState("");
   let navigate = useNavigate();
   const opencart=()=>{
     navigate('/cart') ;
@@ -17,8 +18,15 @@ const Headers = () => {
     navigate('/signin');
   }
   const handleLogout = ()=>{
+    alert("Logged Out Successfully") ;
     localStorage.setItem("isAuth" , JSON.stringify(false));
   }
+  
+// useEffect(()=>{
+//   const ttlItems = JSON.parse(localStorage.getItem("totalItems"));
+//    setTotalItems(ttlItems);
+// }, [totalItems]);
+  // console.log(props);
 
   return (
     <>
@@ -51,7 +59,7 @@ const Headers = () => {
 
       <div className='cart_basket'>
         <ShoppingCartIcon className='carticon' onClick={opencart} />
-        <span className='count option2'> 0 </span>
+        <span className='count option2'> {props.ttlitem} </span>
       </div>
 
     </div>

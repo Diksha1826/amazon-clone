@@ -1,4 +1,4 @@
-import React from 'react'
+import React  from 'react'
 import Headers from '../Header/Headers' ;
 import './Home.css' ;
 import Carousel from 'react-material-ui-carousel' ;
@@ -432,15 +432,20 @@ const fifthCaroselData =[
   
 ]
 
-const openlightning=()=>{
-  console.log('hiii') ;
+// const [item , setitems] = useState("");
+// const openlightning=()=>{
+//   console.log('hiii') ;
   
-}
+// }
+// useEffect(()=>{
+//     const tlitem = JSON.parse(localStorage.getItem("totalItems"))
+//     setitems(tlitem);
+// },[])
 
   
   return (
     <>
-    <Headers />
+    <Headers  />
     <div className='home'>
      <div className='homecontainer'>
      <Carousel>
@@ -481,7 +486,7 @@ const openlightning=()=>{
       </div>
 
       <div className='home_mega_container_divbox' >
-      <h6>Starting ₹79 | Home decor and furnishings</h6>
+      <h6>Starting ₹79 | Home decor and furnishing</h6>
         <div className='home_mega_container_divbox_inflex'>
           <div className='inflex_item'>
             <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/JanART/GW/QCs/186_116_Home_furnishings_2_REVISED._SY116_CB584260944_.jpg" alt="phone img" />
@@ -497,7 +502,7 @@ const openlightning=()=>{
           <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/JanART/GW/QCs/186_116_Home_storage_2_REVISED._SY116_CB584260944_.jpg" alt="phone img" />
           <span >Storage boxes , drawers and more</span>
           </div>
-          <div onClick={openlightning} className='inflex_item'>
+          <div  className='inflex_item'>
           <Link to='products' >
           <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/JanART/GW/QCs/186_116_Home_lighting_2_REVISED._SY116_CB584260944_.jpg" alt="phone img" />
           </Link>

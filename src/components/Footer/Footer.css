@@ -8,7 +8,7 @@
     background-color: #37475A ;
     color:  white ;
     height: 50px;
-    font-size: 15px;
+    font-size: 13px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@ hr{
     color: white;
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 13px;
 }
 .firstsubfooter ul .bold{
     font-weight: bold;
@@ -50,6 +50,7 @@ hr{
 }
 
 .secondsubfooter{
+    font-size: 13px;
     padding: 30px 280px;
     background-color: #232F3E;
     color: white;
@@ -61,7 +62,7 @@ hr{
 
 }
 .countryname{
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 10px;
 
 }
@@ -87,7 +88,7 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .thirdfooter ul li{
@@ -110,6 +111,6 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 10px;
     padding-bottom: 20px;
 }

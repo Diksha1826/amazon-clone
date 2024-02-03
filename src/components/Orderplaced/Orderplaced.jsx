@@ -10,7 +10,8 @@ const Orderplaced = () => {
   return (
     <div className="orderplaced">
         <h1>Thankyou for Shopping with us</h1>
-         <p onClick={gotohome}>goto home</p>
+        <img src="https://i.gifer.com/7efs.gif" alt="" />
+         <p onClick={gotohome}>Goto home</p>
     </div>
   )
 }

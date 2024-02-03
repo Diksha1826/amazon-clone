@@ -10,7 +10,7 @@ const CartPage = () => {
     const [cartdata , setcartdata] = useState([]);
     const [totalcost , settotalcost] = useState('');
     const [totalitem , settotalitem] = useState('');
-    const [isAuth , setIsAuth] = useState(false);
+    // const [isAuth , setIsAuth] = useState(false);
     const navigate = useNavigate();
 
     useEffect(()=>{
@@ -30,14 +30,16 @@ const CartPage = () => {
         } , 0) ;
         // console.log(ttlitem);
         settotalitem(ttlitem) ;
-        const auth = JSON.parse(localStorage.getItem("isAuth"));
-        if(auth === true){
-            setIsAuth(true);  
-          }
-          else{
-            setIsAuth(false);
-          }
+        // const auth = JSON.parse(localStorage.getItem("isAuth"));
+        // if(auth === true){
+        //     setIsAuth(true);  
+        //   }
+        //   else{
+        //     setIsAuth(false);
+        //   }
+
     } , [cartdata])
+
 
     const handleqty =(e , elem)=>{
        const data = JSON.parse(localStorage.getItem("amazoncartdata")) ;
@@ -76,10 +78,11 @@ const CartPage = () => {
         }
 }
 
+
   
   return (
     <div>
-        <Headers />
+        <Headers ttlitem={totalitem} />
         <div className='cartbody'>
          <div className='cartitemsdiv'>
             <h2 className='shopping'>Shopping Cart</h2>
@@ -128,10 +131,7 @@ const CartPage = () => {
                         </div>
                         <div className="cartpricedetail">
                             <p> ₹{elem.price} </p>
-
-
-                        </div>
-                        
+                        </div>    
                     </div>
                     <hr />                            
                     </>

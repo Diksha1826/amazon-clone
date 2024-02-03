@@ -44,7 +44,7 @@ const Checkout = () => {
             <h2>1. Shipping Address</h2></AccordionSummary>
           <AccordionDetails>
             <h4 className="addnewaddress">Add a new address</h4>
-            <form className="addressform" action="">
+            <form className="addressform" onSubmit={(e)=> e.preventDefault()}>
                 <div>
                 <label htmlFor="selecttag">Country/Region</label>
                 <select required name="country" id="countryselecter">

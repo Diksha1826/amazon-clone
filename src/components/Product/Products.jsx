@@ -392,15 +392,12 @@ const closepopup =()=>{
             </div>
             ) 
           }) : <>
+          <img src="https://lecadeau.in/assets/images/pnf.jpg" alt="no product found" />
           <h1 className="sorrynoprdt"> Sorry no Product Found....</h1>
           </> } 
-          
         </div>
       </div>
-
       <Footer />
-
-
     </div> 
   );
 };

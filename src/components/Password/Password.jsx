@@ -5,6 +5,8 @@ import { useNavigate } from 'react-router-dom';
 const Password = () => {
     const [userPassword , setPassword] = useState("");
     const navigate = useNavigate();
+    // const location = useLocation();
+    // const from = location.state?.from?.pathname || '/' ;
    
    
     const signinuser = ()=>{
@@ -14,7 +16,9 @@ const Password = () => {
         for(let i=0;i<usersdata.length;i++){
             if(usersdata[i].email === currentuser && usersdata[i].password === userPassword ){
                     localStorage.setItem("isAuth" , JSON.stringify(true)); 
-                    navigate('/');
+                    navigate(-2)
+                    // navigate(from , {replace: true});
+                    // navigate('/');
                     return;
                 }
             }
