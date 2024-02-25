@@ -68,6 +68,7 @@ const CartPage = () => {
     }
     const gotocheckout =()=>{
         const auth = JSON.parse(localStorage.getItem("isAuth"));
+        if(Number(totalitem) > 0){
         if(auth === true){
                 localStorage.setItem('totalBill' , JSON.stringify(totalcost))
                 localStorage.setItem('totalItems' , JSON.stringify(totalitem))
@@ -76,6 +77,10 @@ const CartPage = () => {
         else{
                 navigate('/signin')
         }
+    }
+    else{
+        alert("Add Items to your cart");
+    }
 }
 
 
@@ -121,7 +126,7 @@ const CartPage = () => {
                            <span>|</span>
                            <p onClick={()=>handledelete(elem)}>Delete</p>
                            <span>|</span>
-                           <p>Sace for later</p>
+                           <p>Save for later</p>
                            <span>|</span>
                            <p>See more like this</p>
                            <span>|</span>

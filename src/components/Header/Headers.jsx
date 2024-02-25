@@ -20,6 +20,7 @@ const Headers = (props) => {
   const handleLogout = ()=>{
     alert("Logged Out Successfully") ;
     localStorage.setItem("isAuth" , JSON.stringify(false));
+    // localStorage.removeItem("amazoncartdata");
   }
   
 // useEffect(()=>{

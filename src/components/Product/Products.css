@@ -78,11 +78,16 @@
     width: 230px;
     height: 250px;
 }
+.products div img:hover{
+    width: 238px;
+    height: 258px;
+}
+
 .productitem p , span {
     margin-top: 5px;
 }
 .prdttitle{
-    height: 40px;
+    height: 37px;
     overflow: hidden;
 }
 .productitem .css-i4bv87-MuiSvgIcon-root{
@@ -95,7 +100,8 @@
 }
 .productitem:hover{
     box-shadow: 2px 2px 5px 3px rgb(205, 202, 202);
-    cursor: pointer;   
+    cursor: pointer; 
+
 }
 .productitem:hover .prdtimg {
     box-shadow: none;

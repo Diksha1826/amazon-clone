@@ -15,7 +15,7 @@ import { Button, Dialog, DialogContent } from '@mui/material';
 const Innerprdt = () => {
 
   const [singledata , setSingleData] = React.useState({}) ;
-  const [quantity , setquantity] = useState("") ;
+  const [quantity , setquantity] = useState("1") ;
   const [isloading , setisloding] = useState(true);
   const {id} = useParams() ;
   const [open , setOpen ] = useState(false) ;

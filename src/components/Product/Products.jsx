@@ -9,7 +9,7 @@ import StarIcon from '@mui/icons-material/Star';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
 import CheckIcon from '@mui/icons-material/Check';
 import Megabar from "../Megadropbar/Megabar";
-import { Button , Dialog , DialogContent } from "@mui/material";
+// import { Button , Dialog , DialogContent } from "@mui/material";
 // import StarHalfIcon from '@mui/icons-material/StarHalf';
 
 const Products = () => {
@@ -18,7 +18,7 @@ const Products = () => {
   const [data , setData] = React.useState([]);
   const [isloading , setisloding] = useState(true);
   const [isdata , setisdata] = useState(true) ;
-  const [open , setOpen] = useState(false);
+  // const [open , setOpen] = useState(false);
   
  
 
@@ -109,12 +109,12 @@ const abovethreethous =()=>{
   })
   setData(under) ;
 }
-const openpopup =()=>{
-  setOpen(true);
-}
-const closepopup =()=>{
-  setOpen(false);
-}
+// const openpopup =()=>{
+//   setOpen(true);
+// }
+// const closepopup =()=>{
+//   setOpen(false);
+// }
 
 
   return (

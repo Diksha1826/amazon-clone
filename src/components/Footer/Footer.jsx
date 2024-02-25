@@ -2,9 +2,17 @@ import React from 'react'
 import './Footer.css'
 
 const Footer = () => {
+
+ const  backtotop=()=>{
+    window.scrollTo({
+      top: 0 ,
+      behavior: "smooth"
+    });
+  };
+
   return (
     <div className="footer">
-    <div className="backtotop">
+    <div className="backtotop" onClick={backtotop} >
       <p>Back to top</p>
     </div>
     <div className="firstsubfooter">
