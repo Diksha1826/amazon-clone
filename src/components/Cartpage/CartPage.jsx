@@ -16,6 +16,7 @@ const CartPage = () => {
     useEffect(()=>{
        const data = JSON.parse(localStorage.getItem("amazoncartdata")) ;
        setcartdata(data) ; 
+       localStorage.setItem('totalItems' , JSON.stringify(totalitem))
     } , [])
 
     useEffect(()=>{
@@ -37,8 +38,9 @@ const CartPage = () => {
         //   else{
         //     setIsAuth(false);
         //   }
+        localStorage.setItem('totalItems' , JSON.stringify(totalitem))
 
-    } , [cartdata])
+    } , [cartdata , totalitem])
 
 
     const handleqty =(e , elem)=>{

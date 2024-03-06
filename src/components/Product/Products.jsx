@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Headers from "../Header/Headers";
 import Footer from "../Footer/Footer" ;
 // import { redirect } from "react-router-dom";
@@ -19,7 +19,17 @@ const Products = () => {
   const [isloading , setisloding] = useState(true);
   const [isdata , setisdata] = useState(true) ;
   // const [open , setOpen] = useState(false);
+  const cartqty = JSON.parse(localStorage.getItem('totalItems'));
+const [cartQty , setCartQty] = useState(cartqty)
+// // const [item , setitems] = useState("");
+// // const openlightning=()=>{
+// //   console.log('hiii') ;
   
+// // }
+useEffect(()=>{
+    const tlitem = JSON.parse(localStorage.getItem("totalItems"))
+    setCartQty(tlitem);
+},[])
  
 
   React.useEffect(()=>{
@@ -120,7 +130,7 @@ const abovethreethous =()=>{
   return (
    
     isloading  ? <>
-     <Headers />
+     <Headers ttlitem={cartQty}/>
      <Megabar />
      <div className="load">
     <h1 className="loading" >Loading...... please wait</h1>
@@ -128,7 +138,7 @@ const abovethreethous =()=>{
     </div>
     </> :
     <div>
-      <Headers />
+      <Headers ttlitem={cartQty}/>
       <Megabar />
       <div className="productbody">
         <div className="sidebar">

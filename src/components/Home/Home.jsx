@@ -1,4 +1,4 @@
-import React  from 'react'
+import React, { useEffect, useState }  from 'react'
 import Headers from '../Header/Headers' ;
 import './Home.css' ;
 import Carousel from 'react-material-ui-carousel' ;
@@ -432,20 +432,22 @@ const fifthCaroselData =[
   
 ]
 
+const cartqty = JSON.parse(localStorage.getItem('totalItems'));
+const [cartQty , setCartQty] = useState(cartqty)
 // const [item , setitems] = useState("");
 // const openlightning=()=>{
 //   console.log('hiii') ;
   
 // }
-// useEffect(()=>{
-//     const tlitem = JSON.parse(localStorage.getItem("totalItems"))
-//     setitems(tlitem);
-// },[])
+useEffect(()=>{
+    const tlitem = JSON.parse(localStorage.getItem("totalItems"))
+    setCartQty(tlitem);
+},[])
 
   
   return (
     <>
-    <Headers  />
+    <Headers  ttlitem={cartQty}  />
     <div className='home'>
      <div className='homecontainer'>
      <Carousel>

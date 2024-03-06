@@ -101,7 +101,6 @@
 .productitem:hover{
     box-shadow: 2px 2px 5px 3px rgb(205, 202, 202);
     cursor: pointer; 
-
 }
 .productitem:hover .prdtimg {
     box-shadow: none;

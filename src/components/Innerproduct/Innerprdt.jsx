@@ -17,9 +17,16 @@ const Innerprdt = () => {
   const [singledata , setSingleData] = React.useState({}) ;
   const [quantity , setquantity] = useState("1") ;
   const [isloading , setisloding] = useState(true);
+  const cartqty = JSON.parse(localStorage.getItem('totalItems'));
+  const [cartQty , setCartQty] = useState(cartqty)
   const {id} = useParams() ;
   const [open , setOpen ] = useState(false) ;
   // console.log(id)
+
+  // useEffect(()=>{
+  //   const cartqty = JSON.parse(localStorage.getItem('totalItems'));
+  //   setCartQty(cartqty);
+  // } , [quantity])
 
   useEffect(()=>{
     fetch(`http://localhost:3001/data/${id}`)
@@ -44,6 +51,12 @@ const Innerprdt = () => {
       cartdata.push((elem)) ;
     }
     localStorage.setItem("amazoncartdata" , JSON.stringify(cartdata)) ;
+    const cartqty = JSON.parse(localStorage.getItem('totalItems'));
+    const ttlqty = Number(cartqty) + Number(quantity);
+    localStorage.setItem('totalItems' , JSON.stringify(ttlqty));
+    const finalTotal = JSON.parse(localStorage.getItem('totalItems'));
+    setCartQty(finalTotal);
+
   }
 
   const addqty =(e)=>{
@@ -61,7 +74,7 @@ const Innerprdt = () => {
 
   return (
     isloading ? <> 
-    <Headers />
+    <Headers  ttlitem={cartQty} />
     <Megabar /> 
     <div className="load">
     <h1 className='loading'> Loading  Please wait!</h1> 
@@ -70,7 +83,7 @@ const Innerprdt = () => {
 
     </> :
     <div>
-      <Headers />
+      <Headers ttlitem={cartQty} />
       <Megabar />
       
 
